@@ -1,0 +1,141 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Kaustubh Jadhav} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+91 9834499607 \\ Pune, India} 
+\address{\href{kj01257890@softenger.com}{kj01257890@softenger.com} \\ \href{https://www.linkedin.com/in/kaus-jadhv/}{linkedin.com/in/kaus-jadhv/} \\ \href{https://github.com/Kaustubh-jadhav}{github.com/Kaustubh-jadhav}}  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{OBJECTIVE}
+
+{Motivated IT graduate eager to begin a career, ready to learn, adapt quickly, and contribute to a collaborative team environment.}
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Master of Computer Application}, Sinhgad Institute of Management, Pune \hfill {2023 - 2025}\\
+CGPA : 7.35 / 10.00
+
+{\bf Bachelor of Computer Science}, Gokhale RYK College, Nashik \hfill {2020 - 2023}\\
+CGPA : 8.75 / 10.00
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+% \begin{rSection}{SKILLS}
+
+% \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+% Operating Systems and Server & Linux(ubuntu), VMware(Basic understanding)
+% \\
+% Cloud Services & AWS \\
+% Programming & Java, PHP, Python, Bash\\
+% % Containers and Automation & Docker, Jenkins\\
+% Tools & Git, Github (Version Control)\\
+% \end{tabular}\\
+% \end{rSection}
+% \vspace{-1.25em}
+
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{4ex}} l }
+\textbf{Unix} &
+Process, Disk, Network, Memory, Permissions, Shell scripting \\
+
+\textbf{Linux} &
+Firewall, User, Storage (LVM, RAID), Root recovery, IP setup, Network config \\
+
+\textbf{Programming} &
+Java, PHP, Python, Bash \\
+
+\textbf{Cloud and DevOps} &
+AWS, Docker, Jenkins \\
+
+% \textbf{Databases} &
+% MySQL, MongoDB \\
+
+\textbf{Version Control} &
+Git, GitHub \\
+
+\end{tabular}
+
+\end{rSection}
+
+\begin{rSection}{Work Experience}
+\vspace{-1.25em}
+
+\item \textbf{Linux System Administrator Trainee} \hfill Feb 2025 – Present\\
+{{\bf Company:} Softenger India Pvt. Ltd., Pune} \\
+{{\bf Technologies Used:} Linux (Ubuntu), Bash, Cron, rsync, iSCSI, LVM, RAID, Firewall} \\
+Worked on Unix-based systems focusing on process management, disk management, memory tuning, and shell scripting to automate administrative tasks. Gained hands-on experience in managing network configurations, editing interface files, assigning static IPs, and bringing network cards up/down.
+Administered Linux systems by managing users and groups, setting permissions, and securing environments. Set up and maintained LVM volumes, software-level RAID arrays, and implemented firewall rules for system security. Recovered root passwords, installed and configured Linux OS, and managed remote storage using iSCSI target and initiator configurations.
+Attended Softskill training sessions to enhance communication, leadership, and teamwork skills. Applied these skills to improve efficiency and collaboration within the team.
+\end{rSection}
+
+
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+\item \textbf{AWS EC2 Web Server Deployment with S3 Integration.} \\
+{{\bf Technologies Used:}{ AWS, EC2, S3, SSH, HTTPD, Git}}\\
+{Deployed a web server on an EC2 instance, configured Apache HTTPD, and ensured the server started automatically on boot.Configured Git on the EC2 instance for version control, enabling seamless integration with project repositories.Created an S3 bucket, applied a public read policy, and uploaded an image for web access.Integrated the S3 bucket with the EC2 web server, allowing the image to be publicly accessible via the EC2 instance's public IP address.
+\href{https://github.com/Kaustubh-jadhav/DevOps-project-1}{(Link)}}
+\item \textbf{Automated Linux Backup Solution}\\
+{{\bf Technologies Used:}{ Linux, Bash, Cron, SFTP, Email.}}\\
+{Automated backups using Bash scripting and rsync, scheduled via Cron to back up critical data.
+Transferred backups securely to remote servers using SFTP.
+Implemented email notifications for backup success or failure, ensuring proactive monitoring.
+Scheduled cleanup of old backups (older than 7 days) to optimize storage.}
+\href{https://github.com/Kaustubh-jadhav/linux-backup}{(Link)}
+
+\vspace{+1.25em}
+\item \textbf{Linux Root Password Break} \\
+{{\bf Technologies Used:}{ Linux, Bootloader, runlevel, passwd command}}\\
+Simulated root password recovery on a Linux system for troubleshooting and system recovery practice. Booted into GRUB, edited boot parameters to access single-user mode (runlevel 1), and reset the root password using the `passwd` command. Ensured secure boot restoration post-recovery and verified administrative access. This process is essential for system recovery in real-time production environments.\href{https://www.linkedin.com/posts/kaus-jadhv_linux-sysadmin-rootpasswordreset-activity-7312016535932276736-cfrn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-7XngBbLbTjoeEp0tFET_oEX7qz4uMZUk}{(Link)}
+
+\item \textbf{RAID Configuration and Management on Linux} \\
+{{\bf Technologies Used:}{ Linux, mdadm, RAID}}\\
+Configured and managed RAID arrays (RAID 0, 1, 5) on Linux using the `mdadm` tool. Created a RAID 1 (mirrored) array for redundancy, ensuring data safety. Performed array expansion and monitoring tasks to optimize performance. Validated the RAID configuration through benchmarking and fault tolerance tests, simulating disk failure and recovery.\href{https://www.linkedin.com/posts/kaus-jadhv_rockylinux-linuxadmin-raidsetup-activity-7317132883511459840-BXFp?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-7XngBbLbTjoeEp0tFET_oEX7qz4uMZUk}{(Link)}
+
+
+% \item \textbf{Attendance Monitoring System}\\
+% {{\bf Technologies Used:}{PHP, MySQL, HTML, CSS, JavaScript, GPS}}\\
+% {Developed a web-based attendance monitoring system for tracking student attendance at Sinhgad Institute, utilizing longitude and latitude for location-based attendance marking.
+% Implemented user roles such as Admin, Teacher, and Student to manage and secure access to the system.
+% Created a real-time attendance marking system that records attendance based on the student's geographical location using GPS coordinates.
+% Designed a MySQL database to store student details, attendance data, and generate detailed reports for both students and administrators.
+% Enabled notifications and real-time updates to ensure accurate and efficient tracking of attendance..}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Courses and Internships} 
+\begin{itemize}
+    \item {\bf Generative AI for DevOps by Trainwithshubham} – Gained insights into applying Generative AI in DevOps practices.  {\href{https://www.linkedin.com/posts/kaus-jadhv_90daysofdevops-ai-devops-activity-7174011753121394690-Riad?utm_source=share&utm_medium=member_desktop}{link}}
+    \item {\bf AWS Zero to Hero by Trainwithshubham} – Learned the fundamentals of AWS Cloud with hands-on projects, covering various AWS services and solutions. {\href{https://www.linkedin.com/posts/kaus-jadhv_aws-cloudcomputing-devops-activity-7204076699913711616-FyGV?utm_source=share&utm_medium=member_desktop}{link}}
+\end{itemize}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+
+
+\end{document}
